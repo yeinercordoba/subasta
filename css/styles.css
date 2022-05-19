@@ -8,11 +8,13 @@ nav{
    display: grid;
    grid-template: "logo-principal menu-principal empty"
                     "logo-principal    div-busqueda empty"/
-                    4fr                 8fr           1fr;
+                    4fr                 8fr           2fr;
 }
 .logo-principal{
     grid-area: logo-principal;
     width: 200px;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 .menu-principal{
     grid-area: menu-principal;
@@ -43,7 +45,7 @@ a{
     margin: 10px 20px;
     width: 100%;
     height: 30px;
-    background-color: blue;
+    background-color: red;
 
 }
 
@@ -62,7 +64,7 @@ a{
 }
 .main-content{
     display: grid;
-    height: 350px;
+    height: 500px;
     grid-template: "productos-dia mas-vendido"/
                         2fr             1fr;
 }
@@ -70,7 +72,7 @@ a{
     grid-area: productos-dia;
     background-color: aqua;
     width: 80%;
-    height: 320px;
+    height: 400px;
     margin: 0 20px 30px 60px;
     display: grid;
     grid-template:"lulo yuca bulto"/
@@ -110,11 +112,12 @@ a{
     grid-area: mas-vendido;
     background-color: blueviolet;
     width: 80%;
-    height: 300px;
+    height: 500px;
     margin: 0 60px 30px 20px;
 }
 .img-platano{
     width: 80%;
     height: 300px;
-    margin: 0 60px 30px 20px 
+    margin: 0 60px 30px 20px;
+    border-radius: 30px;
 }
